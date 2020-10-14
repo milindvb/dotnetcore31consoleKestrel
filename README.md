@@ -9,8 +9,8 @@ dotnet run
 
 **Steps to run in Container**
 
-dotnet restore
-docker build . -t dotnetcoreimage:1.0
-docker push dotnetcoreimage:1.0
-docker run -it -p 5000:80 dotnetcoreimage:1.0
-<browse to localhost:5000>
+dotnet restore<br>
+docker build . -t dotnetcoreimage:1.0<br>
+docker push dotnetcoreimage:1.0<br>
+docker run -it -p 5000:80 dotnetcoreimage:1.0<br>
+<browse to localhost:5000><br>
