@@ -2,7 +2,7 @@ This is a dotnetcode console app (create with dotnet new console) modified to ad
 
 **Steps to run Locally:**
 
-dotnet restore
+dotnet restore<br>
 dotnet run
 <browse to localhost:5000>
 
