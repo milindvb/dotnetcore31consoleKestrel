@@ -1,13 +1,13 @@
 This is a dotnetcode console app (create with dotnet new console) modified to add Kestrel.
 
-Steps to run Locally:
+**Steps to run Locally:**
 
 dotnet restore
 dotnet run
 <browse to localhost:5000>
 
 
-Steps to run in Container
+**Steps to run in Container**
 
 dotnet restore
 docker build . -t dotnetcoreimage:1.0
